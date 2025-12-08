@@ -1,0 +1,16 @@
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.project-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  background: white;
+  border-radius: 6px;
+}
+
+.project-card h3 {
+  color: var(--primary);
+}

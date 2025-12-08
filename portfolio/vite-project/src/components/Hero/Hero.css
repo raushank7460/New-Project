@@ -1,0 +1,29 @@
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+}
+
+.hero-text span {
+  color: var(--primary);
+}
+
+.hero-text p {
+  margin: 15px 0;
+  color: var(--gray);
+  font-size: 20px;
+}
+
+.hero-btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background: var(--primary);
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+}
